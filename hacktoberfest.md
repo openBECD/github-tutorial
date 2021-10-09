@@ -77,7 +77,7 @@ https://git-scm.com/downloads \
 Feito isso, você precisa escolher em qual repositório você deseja contribuir. (pode ser um repositório seu, inclusive).\
 Vou pegar como exemplo um repositório meu, o CabeçaBOT, que foi um bot que fiz pro telegram cerca de 5 anos atrás. Ele consistia em enviar a sua mensagem pro robô Ed (alguns vão lembrar), pegar a resposta e enviar de volta pro telegram.
 
-1. Como eu tinha dito, o primeiro passo é fazer o garfo, digo, o *fork*
+1. Como eu tinha dito, o primeiro passo é fazer o garfo, digo, o *fork*\
 ![](https://i.imgur.com/7lkoI8d.png)
 
 Caso o repositório seja de outra pessoa, você pode clicar em Fork. Caso seja seu, pode passar para o proximo passo e criaremos uma *branch* localmente
@@ -103,7 +103,7 @@ Feito isso, podemos criar a nossa branch com\
 `git branch <nomeDaSuaBranch>`\
 eu usei\
 `git branch hacktoberfest`\
-Em seguida, digitando apenas `git branch` você pode ver as branchs existentes
+Em seguida, digitando apenas `git branch` você pode ver as branchs existentes\
 ![](https://i.imgur.com/KyvJq5B.png)\
 Perceba que apesar de exister a branch hacktoberfest, nós ainda estamos na master. (Se o seu repositorio for recente, terá "main" no lugar de "master")\
 Vamos trocar com `git checkout hacktoberfest`, obviamente trocando pelo nome que você escolheu.\
@@ -112,13 +112,13 @@ Pronto, agora estamos onde queremos!!
 
 4. Depois disso, vejamos as alterações feitas digitando\
 `git status`\
-Você provavelmente vai ver algo como
+Você provavelmente vai ver algo como\
 ![](https://i.imgur.com/EgWJEdZ.png)
 
 Isso significa que a sua belíssima selfie (ou código, whatever) está untracked. Ou seja, o git ta cagando e andando pra alteração que você fez. Então você precisa falar pra ele que todas as vidas importam, e todos os arquivos também.\
 Você pode fazer isso com:\
 `git add *`
-Ou substituindo o asterisco pelo seu arquivo. E assim o tabu foi quebrado com sucesso
+Ou substituindo o asterisco pelo seu arquivo. E assim o tabu foi quebrado com sucesso\
 ![](https://i.imgur.com/cXqeJQI.png)
 
 5. Agora chegou a hora de *commitar* a alteracao que você fez.\
@@ -133,15 +133,15 @@ Funciona da mesma forma.\
 6. É isso!!\
 Já criamos o repositório, clonamos pro nosso computador, criamos uma nova *branch*, fizemos alteração na pasta e commitamos a alteração. Agora falta subir isso pro GitHub e fazer o nosso tao esperado *pull request*.\
 Façamos então\
-`git push origin <nomeDaSuaBranch>`
+`git push origin <nomeDaSuaBranch>`\
 ![](https://i.imgur.com/iKBYBQ8.png)
 
 Nesse passo, se for a sua primeira vez, você provavelmente precisará fazer login com a sua conta do github.
 
-7. Voltando ao GitHub nos deparamos com a seguinte mensagem
+7. Voltando ao GitHub nos deparamos com a seguinte mensagem\
 ![](https://i.imgur.com/MOOa2B6.png)\
 Bem, existe um quadrado amarelo gigante com um botão verde falando pra voce comparar e fazer um pull request. Acredito que eu não preciso dizer o que você precisa fazer agora...\
-Com o pull request criado, basta você ir em labels e adicionar a flag **hacktoberfest-accepted**
+Com o pull request criado, basta você ir em labels e adicionar a flag **hacktoberfest-accepted**\
 ![](https://i.imgur.com/VY048sw.png)
 
 E pronto. Após isso o seu PR está valido. Basta fazer isso mais 3 vezes para ganhar uma belíssima camiseta de graça (até pq ser de graça é o conceito de ganhar).\
@@ -155,5 +155,5 @@ Foi assim comigo em 2016, eu ja programava algumas coisas mas tinha muito medo d
 
 Vale lembrar também que o git faz muuuito mais coisas do que ta descrito aqui. Vale a pena aprender, existem diversos cursos pela internet afora. E se você pretende trabalhar com ciência de dados ou qualquer outra coisa relacionada à programação, você com certeza precisará usar git, e saber usar essa ferramenta já é um grande diferencial para um estágio, por exemplo.
 
-Por fim, segue a minha linda coleção sem motivo nenhum pq sim:
+Por fim, segue a minha linda coleção sem motivo nenhum pq sim:\
 ![](https://i.imgur.com/FQvJrx9.png)
